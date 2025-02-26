@@ -2,6 +2,10 @@
 schemaVersion: 2.2.2
 metadata:
   name: ansible-workspace
+projects:
+  - name: ansible-devspaces-demo
+    zip:
+      location: http://devspaces-dashboard.devspaces.svc:8080/dashboard/api/airgap-sample/project/download?id=ansible
 components:
   - name: tooling-container
     container:
